@@ -83,8 +83,16 @@ footer {
   .right-site { width: 100%; height: 20vw;}
   /* END RIGHT SECTION */
 }
-@media (max-width: 768px){}
-@media (min-width: 769px) and (max-width: 991px){
+@media (min-width: 575px) and (max-width: 768px){
+  .left-site article { width: 33.333%;}
+
+  .left-site article:first-of-type { width: 50%;}
+  .left-site article h3 { font-size: 1em;}
+  .left-site article:first-of-type h3 { font-size: 1em;}
+
+  .left-site article:nth-child(2) { width: 50%;}
+}
+@media (min-width: 768px) and (max-width: 991px){
   article h3 { font-size: 1em;}
 
   /* LEFT SECTION */
@@ -94,7 +102,7 @@ footer {
   .left-site article:first-of-type h3 { font-size: 1.15em;}
   /* END LEFT SECTION */
 }
-@media (min-width: 769px){
+@media (min-width: 768px){
   .left-site article:nth-child(2) { width: 30%;}
   .left-site article:nth-child(3) { width: 30%;}
 }
