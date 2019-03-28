@@ -92,11 +92,9 @@ footer {
 
   .left-site article:first-of-type { width: 40%;}
   .left-site article:first-of-type h3 { font-size: 1.15em;}
-
-  .left-site article:nth-child(2) { width: 30%;}
-  .left-site article:nth-child(3) { width: 30%;}
   /* END LEFT SECTION */
 }
-@media (max-width: 1199px){
-  
+@media (min-width: 769px){
+  .left-site article:nth-child(2) { width: 30%;}
+  .left-site article:nth-child(3) { width: 30%;}
 }
