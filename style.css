@@ -84,13 +84,21 @@ footer {
   /* END RIGHT SECTION */
 }
 @media (min-width: 575px) and (max-width: 768px){
-  .left-site article { width: 33.333%;}
+  /* LEFT SECTION */
 
+  .left-site { width: 100%;}
+
+  .left-site article { width: 33.333%;}
   .left-site article:first-of-type { width: 50%;}
   .left-site article h3 { font-size: 1em;}
   .left-site article:first-of-type h3 { font-size: 1em;}
 
   .left-site article:nth-child(2) { width: 50%;}
+  /* END LEFT SECTION */
+
+  /* RIGHT SECTION */
+  .right-site { width: 100%; height: 20vw;}
+  /* END RIGHT SECTION */
 }
 @media (min-width: 768px) and (max-width: 991px){
   article h3 { font-size: 1em;}
